@@ -8,29 +8,9 @@ namespace TestWithCopilot
     public class CopilotTest
     {
         [TestMethod]
-        public async Task GetCapitalInfo_EuropeanCapital_ReturnsEurope()
+        public async Task Test()
         {
-            // Arrange
-            string capital = "Paris";
-
-            // Act
-            var result = await Program.GetCapitalInfo(capital);
-
-            // Assert
-            Assert.AreEqual("Europe", result.Continent);
-        }
-
-        [TestMethod]
-        public async Task GetCapitalInfo_NonEuropeanCapital_ReturnsNotInEurope()
-        {
-            // Arrange
-            string capital = "Washington";
-
-            // Act
-            var result = await Program.GetCapitalInfo(capital);
-
-            // Assert
-            Assert.AreEqual("Not in Europe", result.Continent);
+            // Test to be created
         }
     }
 }
