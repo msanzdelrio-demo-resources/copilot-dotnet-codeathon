@@ -1,0 +1,38 @@
+# Copilot .Net Demo
+
+This demo will guide you through the process of using GitHub Copilot to create a .Net application that interacts with an external API, handles user input, and includes unit testing and security considerations.
+
+## Step 1: Create the HelloCopilot Project
+
+In the HelloCopilot project, create an application that does the following:
+
+- Given a country capital, returns the region, flag, and border countries of that specific country.
+- Utilize the https://restcountries.com API for retrieving country information.
+- Create a `GetCapitalInfo` method that handles all the logic.
+- The `Main` method should prompt the user for the capital name and display the information in the console.
+
+## Step 2: Add Europe Filter
+
+Extend your `GetCapitalInfo` method to add a check to only return information for countries that belong to Europe. If the given capital does not correspond to a European country, send a message to the user and ask for a different capital input.
+
+## Step 3: Implement Exit Command
+
+Modify the application to keep running until the user types "exit." This ensures that the program does not exit immediately after displaying the information.
+
+## Step 4: Fix Problems Using Copilot Suggestions
+
+Check the problems tab at the bottom of the Visual Studio Code or your IDE. Try to fix one of those problems using Copilot's suggestions to improve your code quality and readability.
+
+## Step 5: Create Tests
+
+In the `TestWithCopilot` project, add unit tests for the `GetCapitalInfo` method. Consider different scenarios, including what happens if the input is not a valid country capital.
+
+## Step 6: Fix Test-Induced Errors
+
+Based on the errors thrown in the previous use case, ask Copilot to help you fix them and ensure your tests pass successfully.
+
+## Step 7: Address Security Concerns
+
+Ask Copilot to identify and address potential security breaches in your `GetCapitalInfo` method. Ensure that your code is secure, and make any necessary improvements to protect against vulnerabilities.
+
+Enjoy your Copilot-powered .Net demo!
