@@ -10,6 +10,8 @@
 		"ms-dotnettools.csharp",
 		"formulahendry.dotnet-test-explorer",
 		"waderyan.gitblame",
-		"ms-dotnettools.csdevkit"
+		"ms-dotnettools.csdevkit",
+		"GitHub.copilot",
+		"GitHub.copilot-chat"
 	]
 }
