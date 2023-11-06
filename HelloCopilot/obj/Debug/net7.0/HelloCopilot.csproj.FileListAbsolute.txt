@@ -1,0 +1,17 @@
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/bin/Debug/net7.0/HelloCopilot
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/bin/Debug/net7.0/HelloCopilot.deps.json
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/bin/Debug/net7.0/HelloCopilot.runtimeconfig.json
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/bin/Debug/net7.0/HelloCopilot.dll
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/bin/Debug/net7.0/HelloCopilot.pdb
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/obj/Debug/net7.0/HelloCopilot.csproj.AssemblyReference.cache
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/obj/Debug/net7.0/HelloCopilot.GeneratedMSBuildEditorConfig.editorconfig
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/obj/Debug/net7.0/HelloCopilot.AssemblyInfoInputs.cache
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/obj/Debug/net7.0/HelloCopilot.AssemblyInfo.cs
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/obj/Debug/net7.0/HelloCopilot.csproj.CoreCompileInputs.cache
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/obj/Debug/net7.0/HelloCopilot.dll
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/obj/Debug/net7.0/refint/HelloCopilot.dll
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/obj/Debug/net7.0/HelloCopilot.pdb
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/obj/Debug/net7.0/HelloCopilot.genruntimeconfig.cache
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/obj/Debug/net7.0/ref/HelloCopilot.dll
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/obj/Debug/net7.0/HelloCopilot.csproj.CopyComplete

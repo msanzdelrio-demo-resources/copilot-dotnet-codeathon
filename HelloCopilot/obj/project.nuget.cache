@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Fc2rFEhrGq6LxYzok4yB75R5NUL0LjF4AikSudPDSZhW+JUTdKed+8/byjHIXnWIruu/FI8PjTiBzNW1aVKihA==",
+  "success": true,
+  "projectFilePath": "/Users/msanzdelrio/Documents/Channel/Products/Copilot/copilot-dotnet-demo/test/HelloCopilot/HelloCopilot.csproj",
+  "expectedPackageFiles": [
+    "/Users/msanzdelrio/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
