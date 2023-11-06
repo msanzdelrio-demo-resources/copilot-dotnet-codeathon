@@ -7,8 +7,9 @@
         "dotnet.testExplorer.testProjectPath": "**/*Tests.csproj"
     },
     "extensions": [
-        "ms-dotnettools.csharp",
-        "formulahendry.dotnet-test-explorer",
-        "waderyan.gitblame"
-    ]
+		"ms-dotnettools.csharp",
+		"formulahendry.dotnet-test-explorer",
+		"waderyan.gitblame",
+		"ms-dotnettools.csdevkit"
+	]
 }
