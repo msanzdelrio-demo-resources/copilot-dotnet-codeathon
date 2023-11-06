@@ -35,4 +35,8 @@ Based on the errors thrown in the previous use case, ask Copilot to help you fix
 
 Ask Copilot to identify and address potential security breaches in your `GetCapitalInfo` method. Ensure that your code is secure, and make any necessary improvements to protect against vulnerabilities.
 
+## Step 8: Translate to other languages
+
+Now that you are done 🎉 this may be a great time to also check how much Copilot can help you with learning/migrating code to other languages. From Python to Java or any other language, feel free to test out the translating skills of Copilot and try to migrate this application to a different language!
+
 Enjoy your Copilot-powered .Net demo!
