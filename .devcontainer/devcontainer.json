@@ -1,0 +1,14 @@
+{
+    "name": "C# (.NET)",
+    "image": "mcr.microsoft.com/dotnet/sdk:latest",
+    "runArgs": [ "-v", "/var/run/docker.sock:/var/run/docker.sock" ],
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "dotnet.testExplorer.testProjectPath": "**/*Tests.csproj"
+    },
+    "extensions": [
+        "ms-dotnettools.csharp",
+        "formulahendry.dotnet-test-explorer",
+        "waderyan.gitblame"
+    ]
+}
