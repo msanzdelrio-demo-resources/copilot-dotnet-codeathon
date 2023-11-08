@@ -1,15 +1,21 @@
-# Copilot .Net Demo
+# Copilot .Net HelloCopilot Challenge
 
-This demo will guide you through the process of using GitHub Copilot to create a .Net application that interacts with an external API, handles user input, and includes unit testing and security considerations.
+This project showcases a basic .NET application designed to provide information about various regions, flags, and borders based on the name of a capital city. It serves as an excellent starting point for learning and experimenting with .NET development, as well as exploring the powerful capabilities of GitHub Copilot.
 
-## Step 1: Create the HelloCopilot Project
+This challenge will guide you through the process of using GitHub Copilot to create a .Net application that interacts with an external API, handles user input, and includes unit testing and security considerations.
 
-In the HelloCopilot project, create an application that does the following:
+You will find the base code of the application and related tests in the `HelloCopilot`and `TestWithCopilot` folders respectively.
+
+## Step 1: Create the HelloCopilot Application
+
+In the HelloCopilot folder, create an application with the folloring requirements:
 
 - Given a country capital, returns the region, flag, and border countries of that specific country.
 - Utilize the https://restcountries.com API for retrieving country information.
 - Create a `GetCapitalInfo` method that handles all the logic.
 - The `Main` method should prompt the user for the capital name and display the information in the console.
+
+You can start working in the `Program.cs`` file directly.
 
 ## Step 2: Add Europe Filter
 
