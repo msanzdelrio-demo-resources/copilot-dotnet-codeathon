@@ -41,7 +41,7 @@ Please follow below instructions
 
 - **Main Branch**: The main branch is ready for you to start working on the different projects. If you are collaborating with other peers on the challenges make sure that you work on your individual branches and then create pull requests once the code is working! 
 
-- **Demo Branch**: The main branch contains the final, working code of the solution. It is ready for use and can be opened in a development container (DevContainer) or in Visual Studio Code (VSCode). You can start coding, running, and experimenting with the application right away.
+- **Demo Branch**: The demo branch contains the final, working code of the solution. It is ready for use and can be opened in a development container (DevContainer) or in Visual Studio Code (VSCode). You can start coding, running, and experimenting with the application right away.
 
 Once you get started with the codeathon and go through the first challenges:
 
