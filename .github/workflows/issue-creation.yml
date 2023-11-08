@@ -1,0 +1,80 @@
+
+name: Create Issue on Close
+
+on:
+    workflow_dispatch:
+    create:
+    issues:
+        types: [closed]
+
+permissions: write-all
+
+jobs:
+    create-issue-challenge-1:
+        if: ${{ github.event_name == 'create' || github.event_name == 'workflow_dispatch' }}
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+              
+            - name: Create first Issue
+              uses: peter-evans/create-issue-from-file@v4
+              with:
+                title: 'Program 1: Sort the string According to the frequency of character'
+                content-filepath: './.github/templates/program-1.md'
+                labels: 'challenge-1'
+
+    create-issue-challenge-2:        
+        if: ${{ github.event_name == 'issues' && github.event.issue.labels[0].name == 'challenge-1' }}
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+              
+            - name: Create Issue From File
+              uses: peter-evans/create-issue-from-file@v4
+              with:
+                title: 'Program 2: Maximum Stock Profit'
+                content-filepath: './.github/templates/program-2.md'
+                labels: 'challenge-2'
+
+    create-issue-challenge-3:        
+        if: ${{ github.event_name == 'issues' && github.event.issue.labels[0].name == 'challenge-2'}}
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+              
+            - name: Create Issue From File
+              uses: peter-evans/create-issue-from-file@v4
+              with:
+                title: 'Program 3: Validate IP Address'
+                content-filepath: './.github/templates/program-3.md'
+                labels: 'challenge-3'
+    
+    create-issue-challenge-4:        
+        if: ${{ github.event_name == 'issues' &&  github.event.issue.labels[0].name == 'challenge-3' }}
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+              
+            - name: Create Issue From File
+              uses: peter-evans/create-issue-from-file@v4
+              with:
+                title: 'Program 4: Sort a linear Array'
+                content-filepath: './.github/templates/program-4.md'
+                labels: 'challenge-4'
+                
+    close:        
+        if: ${{ github.event_name == 'issues' &&  github.event.issue.labels[0].name == 'challenge-4' }}
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+              
+            - name: Create Issue From File
+              uses: peter-evans/create-issue-from-file@v4
+              with:
+                title: 'Congratulations you have completed all levels of Codeathon'
+                content-filepath: './.github/templates/final-challenge.md'
